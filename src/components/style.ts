@@ -6,6 +6,11 @@ position: relative;
 margin-left: 80px;
 margin-top: 20px;
 
+@media(min-width:280px){
+  
+  margin-left: 15px;
+}
+
 @media(min-width:360px){
   margin-left:5px;
 }
@@ -16,6 +21,10 @@ margin-top: 20px;
 
 @media(min-width:1024px){
   margin-top:-80px;
+}
+
+@media(min-width:1025px){
+  margin-top: 30px;
 }
 
 `
@@ -71,6 +80,10 @@ text-align: center;
   font-size: 35px;
   margin-right:20px;
 }
+
+@media(min-width:1025px){
+  font-size:55px;
+}
 }
 
 .h2{
@@ -81,6 +94,11 @@ text-align: center;
 -moz-animation: ${Animation2}  1s ease infinite;
 -webkit-animation: ${Animation2}  1s ease infinite;
 
+@media(min-width:280px){
+  font-size: 60px;
+  margin-left: 2px;
+}
+
 @media(min-width:360px){
   margin-right:25px;
   font-size:35px;
@@ -88,6 +106,10 @@ text-align: center;
 @media(min-width:375px){
   font-size: 55px;
   margin-left:150px;
+}
+
+@media(min-width:1025px){
+  font-size:75px;
 }
 }
 
@@ -109,7 +131,7 @@ border: none;
 font-size:30px ;
 
 background-color: black;
-box-shadow: 0px 0px 0px 9px;
+box-shadow: 0px 0px 0px 5px;
 
 animation: ${Animation} 1s ease infinite;
 -moz-animation: ${Animation}  1s ease infinite;

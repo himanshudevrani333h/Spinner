@@ -45,8 +45,7 @@ export const Wheels = () => {
           textColors={["#ffffff"]}
           onStopSpinning={() => stopSpin()}
           radiusLineWidth={2}
-          outerBorderWidth={3}
-          innerRadius={5}
+          outerBorderWidth={5}
           radiusLineColor={'#39FF14'}
           outerBorderColor={'#faed27'}
         />
